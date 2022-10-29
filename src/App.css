@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+#parent > * {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+#center {
+  position: absolute;
+}
+
+.inputWords {
+  outline: 0;
+  border-width: 0 0 2px;
+  color: dimgrey;
+  width: 20px;
+  margin-right: 5px;
+  font: 20px consolas, monospace ;
+}
+.inputWords:focus {
+  border-color: dodgerblue;
+}
+body{
+  font: 15px;
+}
+.inputWordsSuccess {
+  color:#4BB543 !important;
+  border-color: #4BB543 !important;
+}
